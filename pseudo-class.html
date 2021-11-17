@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Pseudo Class</title>
+    <style>
+      *,
+      *::after,
+      *::before {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background: #000;
+        color: #fff;
+      }
+
+      header > ul {
+        position: absolute;
+        right: 1rem;
+        top: 2rem;
+      }
+
+      header > ul > li {
+        display: inline-block;
+        list-style: none;
+      }
+
+      a:hover {
+        color: #000;
+        border: none;
+        background-color: #fff;
+      }
+
+      main {
+        width: 100vw;
+        position: absolute;
+        bottom: 1rem;
+        /* background-color: #fff; */
+        height: 550px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+
+      div {
+        background-color: rgb(202, 202, 197);
+        text-align: center;
+        color: #000;
+        margin: 10px 30px;
+      }
+      a {
+        text-decoration: none;
+        color: rgb(204, 202, 202);
+        padding: 1rem 1.2rem;
+        border: 1px solid rgb(204, 202, 202);
+        transition-property: all;
+        transition-duration: 0.7s;
+        transition-timing-function: ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="#!">Home</a></li>
+        <li><a href="#!">Facebook</a></li>
+        <li><a href="#!">MC Portal</a></li>
+      </ul>
+    </header>
+    <main>
+      <h1>Pseudo Class Selectors</h1>
+      <section>
+        <div>DIV 1</div>
+        <div>DIV 2</div>
+        <div>DIV 3</div>
+        <div>DIV 4</div>
+        <div>DIV 5</div>
+        <div>DIV 6</div>
+        <div>DIV 7</div>
+        <div>DIV 8</div>
+        <div>DIV 9</div>
+        <div>DIV 10</div>
+        <div>DIV 11</div>
+        <div>DIV 12</div>
+        <div>DIV 13</div>
+        <div>DIV 14</div>
+        <div>DIV 15</div>
+        <div>DIV 16</div>
+        <div>DIV 17</div>
+        <div>DIV 18</div>
+        <div>DIV 19</div>
+        <div>DIV 20</div>
+      </section>
+    </main>
+  </body>
+</html>

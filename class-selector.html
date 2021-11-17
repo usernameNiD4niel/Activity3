@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Class Selector</title>
+    <style>
+      .highlight {
+        background-color: green;
+      }
+      p.highlight {
+        font-style: italic;
+      }
+      .highlight.mainPoint {
+        color: red;
+        background-color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="highlight">Element with Class Selector</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+      laudantium nesciunt laboriosam earum omnis numquam dignissimos voluptate
+      repellat illum accusamus!
+    </p>
+    <p class="highlight">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ad
+      eligendi saepe hic vitae possimus!
+    </p>
+    <div class="mainPoint highlight">This is the main point of the article</div>
+  </body>
+</html>
